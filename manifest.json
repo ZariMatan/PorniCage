@@ -1,0 +1,21 @@
+{
+  "name": "PorniCage",
+  "version": "1.0",
+  "description": "Your daily Porni dosage",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "ncage.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "p_16.jpg",
+    "48": "p_48.jpg",
+    "128": "p_128.jpg"
+  }
+}
